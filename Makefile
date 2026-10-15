@@ -1,6 +1,6 @@
 CC = gcc
-CFLAGS = -c -Wall -lm
-LDFLAGS = 
+CFLAGS = -c -Wall
+LDFLAGS = -lm
 SOURCES = imaginary.c helper.c  
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE= calc
